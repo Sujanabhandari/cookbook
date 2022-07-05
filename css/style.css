@@ -2,6 +2,10 @@
 :root {
 
   --bred: 1px solid red;
+  --pink: #9c2f54;
+  --dark-pink: #5b1a2f;
+  --light-pink: #d0cecf;
+  --text-lighter: #9e9e9e;
 
 }
 
@@ -10,6 +14,25 @@
 .bred {
   border: var(--bred);
 }
+/* Change to uppercase class */
+.text-pink {
+  color: #9c2f54;
+}
+
+.text-lighter {
+  color: var(--text-lighter);
+}
+
+.text-light-pink {
+  color: var(--light-pink);
+}
+
+/* border top class with pink */
+.bt-pink {
+  border-top: 1px solid var(--dark-pink);
+}
+
+
 
 /************************** Navbar */
 /* Gabriela */
@@ -22,6 +45,41 @@
 
 /************************** Footer form and text */
 /* Daiden */
+.form-control {
+  border-color: rgb(68, 1, 70);
+  background-color: #343333;
+}
+
+.form-control:focus {
+  color: #fbe9e7;
+  background-color: #424242;
+  border-color:rgb(52, 51, 51)
+}
+
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label {
+  opacity: .9;
+}
+
+/* button */
+.btn-outline-pink {
+  color: #9c2f54;
+  border: 1px solid #9c2f54;
+  /* background-color: #777; */
+}
+
+.btn-outline-pink:hover {
+  color: #bd3d68;
+  border: 1px solid #b15271;
+  background-color: #343333;;
+}
+
+/* icons */
+i.bi {
+  color: #00bcd4;
+  font-size: 2rem;
+}
+
+
 
 /************************** Recipe section */
 /* Anseln */
