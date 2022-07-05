@@ -1,0 +1,27 @@
+/* Variables */
+:root {
+
+  --bred: 1px solid red;
+
+}
+
+
+/* Use this class to see what area the element in the page covers if you need it.  */
+.bred {
+  border: var(--bred);
+}
+
+/************************** Navbar */
+/* Gabriela */
+
+/************************** Header carousel */
+/* Sujana */
+
+/************************** Image card gallery */
+
+
+/************************** Footer form and text */
+/* Daiden */
+
+/************************** Recipe section */
+/* Anseln */
