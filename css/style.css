@@ -10,6 +10,10 @@
 .bred {
   border: var(--bred);
 }
+/* Change to uppercase class */
+.ttupper {
+  text-transform: uppercase;
+}
 
 /************************** Navbar */
 /* Gabriela */
