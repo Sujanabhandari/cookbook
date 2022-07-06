@@ -87,6 +87,9 @@
 
 /************************** Header carousel */
 /* Sujana */
+.carousel-item {
+  height: 50vh;
+}
 
 /************************** Image card gallery */
 
