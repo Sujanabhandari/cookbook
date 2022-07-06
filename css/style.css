@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 /* Variables */
 /* update the variables, one added for the toggle */
 :root {
   --bred: 1px solid red;
+
+  /* Colors */
   --pink: #9c2f54;
   --dark-pink: #5b1a2f;
   --light-pink: #d0cecf;
+
+  /* Typography */
   --text-lighter: #9e9e9e;
   --icon-primary: #9c2f54;
+  --section-food-heading: 'Bad Script', cursive;
+
+  /* Navivation and links */
   --navbar-toggle: #6b112f;
   --icon-hover: #016673;
   --link-item: #da3169;
   --link-hover: #03a3b8;
   --link-focus: #058798;
-  --svg: rgba(149, 3, 147, 0.8);
+
+  /* Background color */
+  --bg-maron: #2b0d16;
 }
 
 
@@ -40,6 +50,14 @@
 
 .text-justify {
   text-align: justify;;
+}
+
+.bg-pink {
+  background-color: var(--dark-pink)
+}
+
+.bg-maron {
+  background-color: var(--bg-maron);
 }
 
 
@@ -80,7 +98,6 @@
   border-color: var(--dark-pink);
 }
 
-
 .nav-link:focus {
   color: var(--link-focus);
 }
@@ -108,7 +125,14 @@
 }
 
 /************************** Image card gallery */
+.card {
+  border-color: #250014;
+}
 
+.album h1 {
+  font-family: var(--section-food-heading);
+  margin-top: 5rem;
+}
 
 /************************** Footer form and text */
 /* Daiden */
