@@ -8,7 +8,9 @@
   --text-lighter: #9e9e9e;
   --icon-primary: #9c2f54;
   --icon-hover: #016673;
-
+  --link-item: #da3169;
+  --link-hover: #03a3b8;
+  --link-focus: #058798;
 
 }
 
@@ -43,6 +45,45 @@
 
 /************************** Navbar */
 /* Gabriela */
+.nav-link {
+  color: var(--link-item);
+}
+
+.nav-link:hover {
+  color: var( --link-hover)
+}
+
+.nav-link, .navbar-brand {
+  color: var(--link-item);
+}
+
+.nav-link:hover, .navbar-brand {
+  color: var( --link-hover)
+}
+
+.dropdown-menu {
+  background-color: #343333;
+}
+
+.dropdown-item {
+  color: var(--text-lighter);
+}
+
+.dropdown-item:hover {
+  background-color: var(--text-lighter);
+}
+
+
+.dropdown-menu {
+  background-color: #343333;
+  border-color: var(--dark-pink);
+}
+
+
+.nav-link:focus {
+  color: var(--link-focus);
+}
+
 
 /************************** Header carousel */
 /* Sujana */
