@@ -1,16 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 /* Variables */
+/* update the variables, one added for the toggle */
 :root {
-
   --bred: 1px solid red;
+
+  /* Colors */
   --pink: #9c2f54;
   --dark-pink: #5b1a2f;
   --light-pink: #d0cecf;
+
+  /* Typography */
   --text-lighter: #9e9e9e;
   --icon-primary: #9c2f54;
+  --section-food-heading: 'Bad Script', cursive;
+
+  /* Navivation and links */
+  --navbar-toggle: #6b112f;
   --icon-hover: #016673;
   --link-item: #da3169;
   --link-hover: #03a3b8;
   --link-focus: #058798;
+
+  /* Background color */
+  --bg-maron: #2b0d16;
 }
 
 
@@ -34,6 +46,18 @@
 /* border top class with pink */
 .bt-pink {
   border-top: 1px solid var(--dark-pink);
+}
+
+.text-justify {
+  text-align: justify;;
+}
+
+.bg-pink {
+  background-color: var(--dark-pink)
+}
+
+.bg-maron {
+  background-color: var(--bg-maron);
 }
 
 
@@ -74,17 +98,41 @@
   border-color: var(--dark-pink);
 }
 
-
 .nav-link:focus {
   color: var(--link-focus);
+}
+
+/* Add styles for the toggle button */
+/* Change the color in the stroke property of the image data */
+.custom-toggler .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+  /* Set the border color to the desired color */
+.custom-toggler.navbar-toggler {
+  border-color: var(--navbar-toggle);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem rgba(110, 35, 35, 0.865);
 }
 
 
 /************************** Header carousel */
 /* Sujana */
+.carousel-item {
+  height: 50vh;
+}
 
 /************************** Image card gallery */
+.card {
+  border-color: #250014;
+}
 
+.album h1 {
+  font-family: var(--section-food-heading);
+  margin-top: 5rem;
+}
 
 /************************** Footer form and text */
 /* Daiden */
@@ -118,8 +166,38 @@
 
 /* icons */
 i.bi {
-  color: #00bcd4;
+  color: var(--icon-primary);
   font-size: 2rem;
+  transition: all 0.3s ease-out;
+  position:relative;
+}
+
+footer .social-icons li:hover i.bi {
+/* i.bi:hover { */
+  color: var(--icon-hover);
+  /* font-size: 2.4rem; */
+  transform: translateY(-12px) scale(1.4);
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons li  {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  border: 3px solid var(--icon-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+
+footer .social-icons li:hover {
+  border-color: var(--icon-hover);
+  transform: translateY(-2px) scale(1.1);
 }
 
 
