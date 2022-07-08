@@ -18,52 +18,50 @@
 </head>
 
 <body>
+    <!-- Start navbar -->
+    <!-- Gabriela -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cookbook</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Recipes</a></li>
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">About us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-pink" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
     <header class="container-fluid nav-hero bg-dark">
         <!-- This section is the header -->
-        <!-- Start navbar -->
-        <!-- Gabriela -->
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cookbook</a>
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Recipes</a></li>
-                                <li><a class="dropdown-item" href="#">Articles</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">About us</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-pink" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-
-        <!-- End navbar -->
-
         <!-- Start carousel  -->
         <!-- Sujana -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -98,21 +96,18 @@
             </button>
         </div>
         <!-- End carousel -->
-
     </header>
-    <section class="container-fluid image-gallery bg-maron">
+    <section class="container-fluid image-gallery bg-body-gradient">
         <!-- This section is the image card gallery for the recipes, links to the recipe pages -->
         <!-- start gallery -->
-        <div class="album py-5 bg-maron">
+        <div class="album py-5 bg-body-gradient">
             <div class="container">
                 <h1 class="display-6 text-center text-light">Mains</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 my-4 g-3">
-
                     <div class="col">
                         <div class="card shadow-lg">
                             <img src="images/F9C3CE01-C4E7-44F3-9B76-6F9671797697.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -145,10 +140,8 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card shadow-sm">
-
                             <img src="images/IMG_65C2.jpg" class="card-img-top w-100 h-100" alt="">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
@@ -164,12 +157,10 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/4A485AF3-56CA-4EBF-9991-6242737C579D.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -188,7 +179,6 @@
                         <div class="card shadow-sm">
                             <img src="images/EFF22AD2-9105-42AB-A700-CB9D07CF0863.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -207,7 +197,6 @@
                         <div class="card shadow-sm">
                             <img src="images/F9C3CE01-C4E7-44F3-9B76-6F9671797697.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -241,10 +230,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- here -->
-
-
-
                 </div>
                 <h1 class="display-6 text-center text-light">Fruit, Sauces, and Condiments.</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3 my-5">
@@ -284,14 +269,10 @@
                             </div>
                         </div>
                     </div>
-
-
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/4F777CA3-47AA-464F-916E-66BDF579896F.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -306,10 +287,8 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card shadow-sm">
-
                             <img src="images/5EA432F0-3C90-4208-AFFA-279FBAC29726.jpg" class="card-img-top w-100 h-100"
                                 alt="">
                             <div class="card-body">
@@ -330,7 +309,6 @@
                         <div class="card shadow-sm">
                             <img src="images/33F27F7A-343C-41BB-BFC1-9DC6ED750830.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -346,15 +324,12 @@
                         </div>
                     </div>
                 </div>
-
-
                 <h1 class="display-6 text-center text-light">Baking</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3 my-5">
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/277E036F-4BE3-4588-BF3A-1AF7F6739680.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -373,7 +348,6 @@
                         <div class="card shadow-sm">
                             <img src="images/D006F567-CC17-4860-9939-0BCD86292C1E.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -388,12 +362,10 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/F289A9DE-D65B-4C68-87F0-98E7B842E66F.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -408,13 +380,10 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/F251C0E2-7879-4240-86BF-357D1D85FAED.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -432,7 +401,6 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/IMG_5698.jpg" class="card-img-top w-100 h-100" alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -468,7 +436,6 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/IMG_3530.jpg" class="card-img-top w-100 h-100" alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -487,7 +454,6 @@
                         <div class="card shadow-sm">
                             <img src="images/E812A255-30EA-4C66-A271-2FDE33DF79AF.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -505,7 +471,6 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/IMG_0793.jpg" class="card-img-top w-100 h-100" alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -524,7 +489,6 @@
                         <div class="card shadow-sm">
                             <img src="images/92B2BE7C-D956-4AFB-800C-B3C43F87FA0C.jpg" class="card-img-top w-100 h-100"
                                 alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -539,11 +503,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/IMG_3751.jpg" class="card-img-top w-100 h-100" alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -558,13 +520,9 @@
                             </div>
                         </div>
                     </div>
-
-
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="images/IMG_4239.jpg" class="card-img-top w-100 h-100" alt="">
-
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional
@@ -610,13 +568,11 @@
                         </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button class="btn btn-outline-pink" type="button">Button</button>
-                            <!-- <button class="btn btn-primary" type="button">Button</button> -->
                         </div>
                     </form>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 order-first order-xl-last">
-                <!-- <h4 class="mb-4 ttupper">We Love Food..</h4> -->
                 <div class="p-5 text-muted">
                     <h2 class="mb-4 text-pink">We Love Food..</h2>
                     <p class="text-light-pink text-justify">Mustache salvia tote bag woke pug ennui direct trade craft
@@ -629,12 +585,10 @@
                 </div>
             </div>
         </div>
-
     </section>
     <footer class="container-fluid py-3 bt-pink bg-dark text-muted">
         <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4bg-dark text-light">
             <div class="col-md-4 d-flex align-items-center">
-
                 <span class="text-lighter">&copy; 2021 Food for Life, Inc</span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex social-icons">

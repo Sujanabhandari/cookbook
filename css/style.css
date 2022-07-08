@@ -23,7 +23,13 @@
 
   /* Background color */
   --bg-maron: #2b0d16;
+
+  /* body background gradient variables */
+  --bg-gradient-color:  #962667;
+  --bg-gradient-background-image: linear-gradient(197deg, #1e0313 0%, #784BA0 50%, #051c2c 100%);
+
 }
+
 
 
 /* Use this class to see what area the element in the page covers if you need it.  */
@@ -59,6 +65,14 @@
 .bg-maron {
   background-color: var(--bg-maron);
 }
+
+.bg-body-gradient {
+  background: var(--bg-gradient-color);
+  background-image: var(--bg-gradient-background-image);
+  /* background-image: linear-gradient(197deg, #1e0313 0%, #784BA0 50%, #051c2c 100%); */
+
+ }
+
 
 
 
@@ -127,6 +141,7 @@
 /************************** Image card gallery */
 .card {
   border-color: #250014;
+  background-color: #fffefec9;
 }
 
 .album h1 {
